@@ -108,12 +108,44 @@ main{
   /* justify-content: center; */
   margin: 0px auto;
 }
+main section{
+  margin-top:130px;;
+}
 .about-info-container{
   display: flex;
   justify-content: space-around;
   text-align: center;
 }
 /* what I do section  */
-#what-i-do-description{
-  padding: 30px,150px;
+.skills-container{
+  display: flex;
+  margin-left: 150px;
+  gap: 24px;
+  align-items: center;
+}
+.skills{
+  width: 267px;
+  height: 277px;
+  border-radius: 5px;
+  background-color: white;
+  justify-content: space-around;
+  text-align: justify;
+  padding: 33px;
+  margin: 20px;
+  box-shadow: 2px 2px 15px lightgrey;
+}
+.skill-description{
+  /* padding: 30px; */
+  color: #757575;
+  font-size: 18px;
+}
+#what-i-do-description{ 
+  margin: 50px 150px;
+}
+.resume-column-title{
+  color: var(--dark-02, #474747);
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
