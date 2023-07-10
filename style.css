@@ -113,3 +113,7 @@ main{
   justify-content: space-around;
   text-align: center;
 }
+/* what I do section  */
+#what-i-do-description{
+  padding: 30px,150px;
+}
